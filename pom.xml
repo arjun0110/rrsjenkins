@@ -66,9 +66,9 @@
 				<version>2.4.3</version>
 				<configuration>
 					 <configuration>
-            <includes>
-                <include>**/*Test.java</include>
-            </includes>
+           <suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
     </configuration>
 				</configuration>
 			</plugin>
