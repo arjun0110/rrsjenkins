@@ -59,6 +59,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -66,9 +67,9 @@
 				<version>2.4.3</version>
 				
 					 <configuration>
-         <includes>
-                        <include>**/testcases*.java</include>
-                </includes>
+        <suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
     </configuration>
 			
 			</plugin>
