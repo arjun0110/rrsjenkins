@@ -15,6 +15,7 @@ public abstract class Reporter {
 	public static ExtentReports extent;
 	public static ExtentTest test, suiteTest;
 	public String testCaseName, testNodes, testDescription, category, authors;
+	public String imagelocation=  "./../reports/images/";
 
 
 	public void startResult() {
@@ -49,7 +50,7 @@ public abstract class Reporter {
 			snapNumber = takeSnap();
 			try {
 				img = MediaEntityBuilder.createScreenCaptureFromPath
-						("./../reports/images/"+snapNumber+".jpg").build();
+						(imagelocation+snapNumber+".jpg").build();
 			} catch (IOException e) {				
 			}
 		}
