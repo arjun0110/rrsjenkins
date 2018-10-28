@@ -147,7 +147,7 @@ highLighterMethod(driver, showperpage);
 		return new Newpageresults();
 	}
 	
-	@FindBy(how=How.XPATH,using="//*[contains(@id,'RRL1135_img')]")
+	@FindBy(how=How.XPATH,using="//*[contains(@id,'RRL1135_img_url')]")
 	private WebElement productLink;
 	
 	public Productdetails clickproductlink()

@@ -38,7 +38,7 @@ public class HomePage_RRS extends ProjectMethods{
 		return this;
 	}
 	
-	@FindBy(how=How.XPATH,using="//*[contains(@data-yo-src,'https://cdn-ap-ec.yottaa.net/5923163e312e587d7add0e60/www.roadrunnersports.com/v~4b.12a/rrs/img/content_new/LogosBrnds_0000_RGear.png?yocs=i_n_&yoloc=ap')]")
+	@FindBy(how=How.XPATH,using="//*[contains(@title,'R Gear, Shop Now')]")
 	private WebElement rgear;
 	
 	public Searchresults rgearbrand()

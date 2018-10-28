@@ -19,7 +19,7 @@ public abstract class Reporter {
 
 
 	public void startResult() {
-		html = new ExtentHtmlReporter("./reports/pdjuses.html");
+		html = new ExtentHtmlReporter("./reports/test.html");
 		html.setAppendExisting(true);		
 		extent = new ExtentReports();		
 		extent.attachReporter(html);	

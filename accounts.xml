@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testcases.Logout"/>
-      <class name="testcases.LoginwithInvalidPassword"/>
+     
       <class name="testcases.LoginFlow"/>
     </classes>
   </test> <!-- Test -->

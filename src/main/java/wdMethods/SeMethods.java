@@ -52,7 +52,7 @@ public class SeMethods extends Reporter implements WdMethods{
 	public SeMethods() {
 		prop = new Properties();
 		try {
-			prop.load(new FileInputStream(new File("./src/main/resources/config.properties")));
+			prop.load(new FileInputStream(new File("C:\\AutomationCode\\RRS\\src\\main\\java\\resources\\config.properties")));
 			sHubUrl = prop.getProperty("HUB");
 			sHubPort = prop.getProperty("PORT");
 			sUrl = prop.getProperty("URL");

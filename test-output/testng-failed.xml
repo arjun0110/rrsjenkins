@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.Order_LoginFlow">
+      <class name="testcases.Orders_GuestFlow">
         <methods>
           <include name="setData"/>
           <include name="afterTest"/>
@@ -12,9 +12,9 @@
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
-          <include name="orderswithLogin"/>
+          <include name="orders" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testcases.Order_LoginFlow -->
+      </class> <!-- testcases.Orders_GuestFlow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
